@@ -1,0 +1,138 @@
+@import '../../node_modules/reset-css/reset.css';
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'geomanistregular';
+  src: url('fonts/geomanist-regular-webfont.eot');
+  src: url('fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/geomanist-regular-webfont.woff2') format('woff2'), url('fonts/geomanist-regular-webfont.woff') format('woff'), url('fonts/geomanist-regular-webfont.ttf') format('truetype'), url('fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+h2 {
+  font-family: 'Playfair Display';
+}
+section {
+  display: flex;
+  width: 100vw;
+  position: relative;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+header .header__ontop {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+header .header__ontop__menu {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+header .header__ontop__menu ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+header .header__ontop__menu ul li {
+  margin-left: 25px;
+  position: relative;
+}
+header .header__ontop__menu ul li::before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  left: -25px;
+}
+header .header__ontop__menu ul li a {
+  font-family: 'geomanistregular';
+  font-size: 13px;
+  color: white;
+  line-height: 0.798;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header__ontop__menu ul li a .icon {
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+}
+header .header__ontop__menu ul li a .icon svg {
+  width: 100%;
+  height: auto;
+}
+header .header__navigation {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+header .header__navigation__menu {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: center;
+}
+header .header__navigation__menu__logo {
+  max-width: 163px;
+}
+.slick-slider {
+  width: 100%;
+}
+#NextTravelComponent {
+  width: 100vw;
+  height: 80vh;
+}
+#NextTravelComponent .SlideComponent {
+  width: 100vw;
+  height: 80vh;
+  background-color: #0f4c81;
+  overflow: hidden;
+  position: relative;
+}
+#NextTravelComponent .SlideComponent__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+#NextTravelComponent .SlideComponent img {
+  opacity: 0.45;
+  width: 100%;
+  height: auto;
+}
