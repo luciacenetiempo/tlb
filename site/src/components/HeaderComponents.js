@@ -33,13 +33,13 @@ class HeaderComponent extends Component {
               <img className="header__navigation__menu__logo" src="../assets/images/logo-travel-like-a-bum.png" alt="Logo Travel Like A Bum -  Blog di Viaggi"/>
               <ul>
                 <li>
-                  <a href=""><strong>I miei viaggi</strong><br/>quelli passati</a>
+                  <a href=""><strong>I miei viaggi</strong> quelli passati</a>
                 </li>
                 <li>
-                  <a href=""><strong>Le destinazioni</strong><br/>quelle future</a>
+                  <a href=""><strong>Le destinazioni</strong> quelle future</a>
                 </li>
                 <li>
-                  <a href=""><strong>Le mie idee</strong><br/>e altre amenità</a>
+                  <a href=""><strong>Le mie idee</strong> e altre amenità</a>
                 </li>
               </ul>
             </nav>

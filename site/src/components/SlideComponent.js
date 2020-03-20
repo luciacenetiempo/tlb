@@ -9,7 +9,7 @@ class SlideComponent extends Component {
       <div id="SlideComponent" className="SlideComponent">
         <img src={this.props.image} alt={this.props.imageAlt} />
         <div className="SlideComponent__content">
-          <h2><span className="small">PROSSIMA DESTINAZIONE</span><br/><strong>{this.props.city}</strong></h2>
+          <h2><span className="small">PROSSIMA DESTINAZIONE</span> <strong>{this.props.city}</strong></h2>
           <a href={this.props.link} className="cta cta--btn">{this.props.ctaLabel}</a>
         </div>
       </div>
